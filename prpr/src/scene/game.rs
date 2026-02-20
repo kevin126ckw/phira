@@ -444,7 +444,7 @@ impl GameScene {
                     Some((0., combo_top + unit_h * 0.2)),
                     Some((0., combo_top + unit_h * 0.2)),
                     |ui, c| {
-                        ui.text(if res.config.autoplay() { "AUTOPLAY" } else { "COMBO" })
+                        ui.text(if res.config.autoplay() { "COMBO" } else { "COMBO" })
                             .pos(0., combo_top)
                             .anchor(0.5, 0.)
                             .size(0.4)
